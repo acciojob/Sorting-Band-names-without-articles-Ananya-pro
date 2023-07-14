@@ -1,8 +1,9 @@
 // //your code here
 let bandNames = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal']
-let article=["A", "AN", "THE"]
+let articles = ["A", "AN", "THE"]
+
 bandNames.sort((a,b) => (strip (a)>strip (b))?1:-1)
-const ref=document.getElementByTagName("ul")[0]
+const ref=document.getElementsByTagName("ul")[0]
 for(let i=0;i<bandNames.length;i++)
 	{
 		const li=document.cretaeElement("li")
